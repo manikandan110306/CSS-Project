@@ -2,3 +2,24 @@ p{
     color: rgb(255, 56, 6);
     font-size: 20px;
 }
+
+body{
+    background-color: rgb(204, 255, 241);
+    font-family: Arial, sans-serif;
+}
+
+.classselector{
+    color: rgba(138, 43, 226,0.5);
+}
+
+#idselector{
+    color: rgb(255, 0, 0);
+}
+
+p a{
+    color: #ff0000;
+}
+
+*{
+    font-family: Arial, sans-serif;
+}
