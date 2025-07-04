@@ -6,6 +6,8 @@ p{
 body{
     background-color: rgb(204, 255, 241);
     font-family: Arial, sans-serif;
+    text-indent: 2px;
+    font-weight: bold;
 }
 
 .classselector{
@@ -17,10 +19,74 @@ body{
 }
 
 p a{
-    color: #ff0000;
+    text-decoration: underline;
 }
 
 *{
     margin:5px;
     font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    box-sizing: content-box;
+}
+
+.container
+{
+    border: 2px dashed black;
+    border-bottom-width: 5px;
+    border-top-width: 5px;
+    font-size: 1.5rem;
+    padding: 0.5em;
+    margin-bottom:1.5em;
+    outline: 5px solid #fa5454;
+    outline-offset: -10px;
+}   
+
+.circle
+{
+    margin:2em auto;
+    border: 10px solid greenyellow;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    outline: 5px dashed black;
+    outline-offset: 10px;
+}
+a{
+    cursor: not-allowed;
+    color: #fa5454;
+}
+ a:visited{
+    color: goldenrod;
+ }
+ a:hover,a:focus{
+    color:blue;
+    opacity: 0.5;
+ }
+ a:focus{
+    background-color: skyblue;
+ }
+ ol{
+    list-style-type: lower-alpha;
+ }
+ ul{
+    list-style-type: square;
+    text-align: center;
+    list-style-position: inside;
+    list-style: square inside url(".../checkbox.png");
+ }
+ 
+ ul li{
+    color:rgb(45, 251, 251)
+ }
+ 
+ ul li:nth-child(2){
+    color:rgb(44, 23, 204)
+ }
+ ::marker{
+    color: #fa5454;
+    font-size: larger;
+ }
+
+ul li::marker{
+    content: ">>";
 }

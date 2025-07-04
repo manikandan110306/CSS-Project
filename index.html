@@ -13,14 +13,13 @@
         header {
             background-color: rgb(208, 179, 179);
             padding: 20px;
-            border: 2.5px solid black;
             border-radius: 25px;
             text-align: center;
         }
     </style>
 </head>
 <body>
-    <header>
+    <header class="container">
         <h1>CSS Project</h1>
     </header>
     <main>
@@ -34,7 +33,30 @@
             <h2>Color Correction</h2>
             <p id="idselector">For Colour recommendations <a href="https://coolors.co/">Coolors</a></p>
         </article>
-        
+        <div class="circle">
+            <p>This is for border circle</p>
+        </div>
+        <section>
+            <form action="typography">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter ur name">
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section>
+            <h2 style="color:brown">List</h2>
+            <ol start="3"><!--We can reverse it by ol start="3" reversed>-->
+                <li>Olist1</li>
+                <li>Olist2</li>
+                <li>Olist3</li>
+            </ol>
+            <h2 style="color: brown;">Unordered List</h2>
+            <ul>
+                <li>Ulist1</li>
+                <li>Ulist2</li>
+                <li>Ulist3</li>
+            </ul>
+        </section>
     </main>
 </body>
 </html>
