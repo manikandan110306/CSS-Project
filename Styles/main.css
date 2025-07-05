@@ -76,7 +76,7 @@ a{
  }
  
  ul li{
-    color:rgb(45, 251, 251)
+    color:rgb(1, 36, 36)
  }
  
  ul li:nth-child(2){
@@ -90,3 +90,142 @@ a{
 ul li::marker{
     content: ">>";
 }
+
+main{
+    background-color: aqua;
+}
+
+#fordisplay{
+    background-color: blue;
+}
+
+.display{
+    background-color: whitesmoke;
+    color: rgb(255, 119, 0);
+    padding: 4rem;
+    display: inline-block;
+}
+
+#uldisp{
+    list-style-type: none;
+    margin: 0;
+    background-color: azure;
+    padding: 0;
+    text-align: left;
+}
+
+#lidisp{
+    display:inline-block;
+    margin-inline: 5rem;
+}
+
+#lidisp a{
+    color:black;
+    text-decoration: none;
+}
+
+#lidisp a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+
+.float{
+    background-color: lightskyblue;
+    width: 50%;
+    height: 50%;
+    padding: 1rem;
+}
+
+.left{
+    float: left;
+    margin-right: 5rem;
+}
+
+.right{
+    float: right;
+    margin-left: 5rem;
+}
+
+.clear{
+    clear: both;
+}
+
+/* section{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    overflow: auto;
+    display: flow-root;
+} */
+
+.column{
+   /*  column-count: 3;
+    column-width: 250px; */
+    columns: 4 250px;
+    column-rule: 3px solid black;
+    column-gap: 3rem;
+}
+.column p{
+    margin-top: 0;
+}
+
+/* .column h2{
+    margin:0;
+    background-color: black;
+    color: whitesmoke;
+    padding: 3rem;
+    break-inside: avoid;
+} */
+
+.quote{
+    color: #5465fa;
+    text-align: center;
+    column-span: all;
+}
+/* 
+.outer-position{
+    border: 3px dashed burlywood;
+    width: 75vw;
+    height: 85vh;
+    margin: 40px auto;
+    position: relative;
+}
+
+.inner-position{
+    border: 3px solid black;
+    width: 40vw;
+    height: 50vh;
+    margin:200px auto;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+}
+
+.absolute{
+    background-color: #5465fa;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.relative{
+    background-color: #24c6f3;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.fixed{
+    background-color: #00ff48;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sticky{
+    background-color: #ff00f0;
+    position: sticky;
+    top: 0;
+    left: 0;
+} */
