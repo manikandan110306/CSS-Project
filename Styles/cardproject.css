@@ -105,6 +105,10 @@ footer {
   text-align: center;
 }
 
+.card:target{
+    border: 5px solid #ff0000;
+}
+
 /* || SMALL */
 @media screen and (min-width: 576px) {
   main {
