@@ -61,4 +61,13 @@ footer{
 
 :root{
     --BGCOLOR:#000000;
+    --FS:clamp(0.75rem,2vh,1.5rem);
+}
+
+p{
+    font-size: var(--FS);
+}
+
+a:hover{
+    filter: brightness(150%);
 }
